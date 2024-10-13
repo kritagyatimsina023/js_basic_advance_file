@@ -1,0 +1,59 @@
+strict mode helps developers to prevent from different errors or visible errors simply write 'use strict'
+
+...................
+function is also an values such that it can be stord in a variables .
+in function declaration function can be called before declaring it(i.e function call can be done before defining the actual function )
+but in function decalration it cannot be done this is due to hoising 
+
+mostly function expression is used because it becomes necessary to call declare the function before calling it 
+
+.........................
+arrow function syntax 
+for single parameters
+const var_name = parameters =>{
+
+}
+
+for multiple parameters
+const var_name = (para1,para2) =>{
+
+}
+................
+array
+another way to from an array 
+const var_name = new Array(1233,1243,213,434) etc 
+
+array_name.length is the property of an array which is not zero based (i.e counting does not start from 0)
+array is only zero based (i.e counting starts from 0 ...)
+we can mutate array even though it is declered with const 
+
+array methods are:
+push :add elements to the end of array
+unshift: to add element to the front of the array.
+
+pop: to remove the end elements of an array.
+
+shift : to remove the first elements from the array.
+indexOf: to determine the index of an element within array
+includes: simply returns true if the element is with in array and false if the element is not within array
+
+.....................
+another data structure is object. 
+curly braces . key => var_name
+
+ inside object content are called property.
+const obj_name = {
+     key : values,
+    key1 : values1,
+
+}
+conclusion; array should be used for ordered data where as object should be used for unstructured data.
+
+if computation has to be done within the property of the object then brackets has to be used. else for simply fetching the property of the object then simply .(dot) is used
+
+ ......................
+ object methods (228-246) imp      
+
+ .....................
+ looping 
+ 

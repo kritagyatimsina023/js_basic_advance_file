@@ -1,0 +1,67 @@
+nothing much just about variable name how the variable name should be assigned which makes easier to nunderstand .
+
+
+.......................................
+datatypes:..................
+there are total 7 primitive datatypes in js 
+number: floating point number used for decimals and integers.
+
+string: sequences of characters , used for text 
+boolean: logical type mthat can only be true and false .used for decisions making .
+undefined: values taken by the variable but not yet defined empty values.
+
+Null: also means empty values
+symbols: less used
+Bigint: larger integers than the number type can hold
+
+note: js do not need to define varibales dynamically . datatypes are defined automatically. 
+
+console.log(typeof null);
+which shows and object that is simply an bug  
+........................................
+
+// let, const, var ...............
+let is basically used for mutating the values (i.e. defining the values and again changing the values of the varibales with the new ones) like age can be changed
+
+const values ones defined cannot be changed later (immutable variables) like date of birth year (DOB) cannot be changed ones defined correctly
+
+var less used 
+
+
+............................... 
+ type conversion and type coercion 
+ type conversion is manually converted my use himself  and type coercion is converted by js in BTS . implicityly 
+
+ type conversion str to number using number function  NaN is not a number which means invalid number but its type is number still  
+
+ i type coercion js wil automatically convert str to number by default doesnot requires any functions 
+
+ .............................
+ truthy and falsey values
+ undefined,null,0 are falsey values .
+ for truthy values 1 and any other numbers are truthy values
+
+
+...........................
+=== doesnot performs type coercion that is also called strict. 
+==  is also called loose equality operator . which performs type coercion
+
+..............................
+switch statements 
+ const variables = 'monday'
+ switch(variables){
+    case 'monday':
+        console.log("its monday)
+        break;
+ } 
+ ..................
+ if emoji the windows button + .(dot) 
+
+ ....................
+ js release and version
+ first mocha ma made in just 10days(very first version of js )
+ microsoft copied js from netscape
+ later es(called ecmascript 5) was developed 
+ and now we are using es6(with a lot of features) now es will apply cycle of annual change evey year instead of establishing new version 
+  
+  js is backward compactible that means the old methods syntax is still applicable in the new versions but it is not forward compactible.
