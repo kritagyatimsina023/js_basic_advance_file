@@ -1,0 +1,17 @@
+spread operator can be used when we want to access individual element of an array   
+iterables are array strings maps but not object
+new way of copying object is 
+const new_obj = {...previous object name }
+new obj is created in new memory location 
+... is spread operator which is useful in array and copying object 
+
+
+....................
+rest is used to pack an array while spread operator is used to unpack an array
+rest is used becaues the ramaining elements of array is kept in new array such that ... is used in LHS 
+it takes multiple values and packs on to the array
+..........................
+advance AND and OR operations 
+so in advance OR operations 
+it finds for truthy value if certain value is true then returns truthy value immeditely ....
+for and operations if it finds falsy value then it returns falsy value immediately doesnot care about truthy value . and if all of them are truthy value then it will simply return last value 

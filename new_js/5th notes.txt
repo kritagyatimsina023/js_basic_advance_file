@@ -1,0 +1,5 @@
+console.table(); to represent index and value in tabular form 
+console.error(): to highlight error (red)
+console.warn(): to warn prolems (yellow)
+
+use source in the chrome console and use the breakpoints to find the bugs and run the code in a sequence
